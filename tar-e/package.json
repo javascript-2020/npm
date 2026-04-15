@@ -13,7 +13,9 @@
                                         "tar-stream"    : "^3.1.8"
                                   },              
               
-              "bin"             : "./tar-e.js",
+              "bin"             : {
+                                        "tar-e"   : "./tar-e.js"
+                                  },
               
               "license"         : "MIT",
 
