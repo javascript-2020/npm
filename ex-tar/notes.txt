@@ -1,0 +1,26 @@
+
+notes:
+
+      
+      create text file on windows
+      
+      echo helloworld > test.txt
+
+      cat helloworld > test.txt
+
+      
+      create .tar on windows
+      
+      tar -cvf archive.tar "folder_or_files"
+      
+      
+      create .tar.gz on windows
+      
+      tar -czf archive.tar.gz file.txt
+      
+      
+      
+      
+      
+      
+      
