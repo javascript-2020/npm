@@ -30,7 +30,16 @@ A command line tool for when you just want to unpack something quickly without r
 
 you can test it 
 
-**[https://ext-code.com/utils/misc/terminal/terminal.html](https://ext-code.com/utils/misc/terminal/terminal.html)**
+**[nodejs terminal - https://ext-code.com/utils/misc/terminal/terminal.html](https://ext-code.com/utils/misc/terminal/terminal.html)**
+
+
+**note :**  download a tarball
+
+```
+
+      npm pack <package> 
+
+```
 
 
 <br>
