@@ -1,0 +1,21 @@
+{
+  "name": "espree-browser",
+  "version": "1.0.2",
+  "description": "Browser-ready standalone build of Espree (UMD + ESM)",
+  "main": "espree.js",
+  "module": "espree.m.js",
+  "exports": {
+    "import": "./espree.m.js",
+    "require": "./espree.js"
+  },
+  "keywords": [
+    "espree",
+    "parser",
+    "javascript",
+    "browser",
+    "umd",
+    "esm",
+    "standalone"
+  ],
+  "license": "MIT"
+}
