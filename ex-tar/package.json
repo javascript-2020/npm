@@ -1,0 +1,77 @@
+{
+        
+ "name": "ex-tar",
+        
+ "version": "1.0.1",
+        
+ "description": "cli tar extract via npx tar-e <filename> [target]",
+        
+ "type": "module",
+        
+ "dependencies": {
+        
+         
+ "tar-stream": "^3.1.8"
+        
+ },
+        
+ "bin": {
+        
+         
+ "ex-tar": "ex-tar.js"
+        
+ },
+        
+ "license": "MIT",
+        
+ "repository": {
+        
+         
+ "type": "git",
+        
+         
+ "url": "git+https://github.com/javascript-2020/npm.git",
+        
+         
+ "directory": "npm"
+        
+ },
+        
+ "keywords": [
+        
+         
+ "tar",
+        
+         
+ "extract",
+        
+         
+ "cli",
+        
+         
+ "archive"
+        
+ ],
+        
+ "main": "tar-e.js",
+        
+ "devDependencies": {},
+        
+ "scripts": {
+        
+         
+ "test": "echo \"Error: no test specified\" && exit 1"
+        
+ },
+        
+ "author": "",
+        
+ "bugs": {
+        
+         
+ "url": "https://github.com/javascript-2020/npm/issues"
+        
+ },
+        
+ "homepage": "https://github.com/javascript-2020/npm#readme"
+}
