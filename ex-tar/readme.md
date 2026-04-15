@@ -47,7 +47,7 @@ you can test it
 
 ## Features
 
-- `ex-tar` is a no-fuss tiny streaming extractor  
+- `ex-tar` is a no-fuss tiny tarball extractor  
 - Extracts `.tar` and `.tar.gz` / `.tgz`
 - Pure JavaScript — works on Windows, macOS, Linux, and WebContainers
 - No global install required
