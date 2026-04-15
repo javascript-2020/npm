@@ -9,7 +9,9 @@
 <br>
 
 
-A command line tool for when you just want to unpack something quickly without remembering flags.
+A command line tool for when you just want to unpack something quickly without remembering flags
+
+you dont have access to tar
 
 
 <br>
@@ -23,17 +25,27 @@ A command line tool for when you just want to unpack something quickly without r
 
 ```
 
+<br>
+
+|name |desc |
+|-----|--------|
+|archive|required<br>archive to be unpacked|
+|target|optional<br>omitted - use current directory<br>destination folder, will be created if doesnt exist|
+
 
 <br>
 
-## Test
+## Notes
 
-you can test it 
+- it wont write outside the target directory
+ 
 
-**[nodejs terminal - https://ext-code.com/utils/misc/terminal/terminal.html](https://ext-code.com/utils/misc/terminal/terminal.html)**
+- you can test it 
+
+  **[online nodejs terminal -- https://ext-code.com/utils/misc/terminal/terminal.html](https://ext-code.com/utils/misc/terminal/terminal.html)**
 
 
-**note :**  download a tarball
+- download a tarball
 
 ```
 
@@ -47,13 +59,13 @@ you can test it
 
 ## Features
 
-- `ex-tar` is a no-fuss tiny tarball extractor  
+- `ex-tar` is a no-fuss tarball extractor  
 - Extracts `.tar` and `.tar.gz` / `.tgz`
 - Pure JavaScript — works on Windows, macOS, Linux, and WebContainers
 - No global install required
 - No flags, configuration or options to remember
 - Automatically detects gzip compression
-- Extracts into the current working directory if [target] is omitted
+- Extracts into the current working directory if [target] is omitted, creates directory if it does not exist
 
 
 
