@@ -1,0 +1,16 @@
+      
+      
+      
+      {
+        
+            "name"          : "openssl-browser",
+            "version"       : "2.0.5",
+            "description"   : "Browser-ready standalone build of openssl ( UMD + ESM )",
+            "exports"       : {"import":"./openssl.mjs","require":"./openssl.js"},
+            "keywords"      : ["openssl","crypto","cryptography","tls","ssl","x509","certificate","hash","sha256","aes","rsa","ecdsa","wasm","webassembly","browser","nodejs","umd","esm","javascript","webcrypto","encryption","decryption","keygen","pkcs7","pkcs12","pem","der","native-port","emscripten"],
+            "license"       : "MIT",
+            "repository"    : {"type":"git","url":"git+https://github.com/javascript-2020/npm.git","directory":"openssl-browser"}
+            
+      }
+
+
